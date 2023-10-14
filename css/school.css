@@ -1,0 +1,19 @@
+.profile p{
+    background-color: blue;
+    color: cadetblue;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFFAFF;
+    color: #000080;
+    padding: 5px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    box-shadow: 5px 5px 10px black;
+    
+}
